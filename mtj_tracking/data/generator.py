@@ -23,7 +23,7 @@ from multiprocessing import Pool
 
 import numpy as np
 from tensorflow.keras.utils import Sequence
-from keras_preprocessing.image import ImageDataGenerator
+from keras.preprocessing.image import ImageDataGenerator
 from scipy.stats import multivariate_normal
 from skimage.transform import resize
 from sklearn.utils import shuffle
